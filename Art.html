@@ -9,20 +9,11 @@
 
 <head>
 <style>
-div.gallery {
-	margin: 5px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 180px;
-}
-
-div.gallery:hover {
-	border: 1px solid #777;
-}
 
 div.gallery img {
-	width: 100%;
-	height: auto;
+
+	width: 200px;
+	height: 200px;
 }
 
 div. desc {
@@ -30,13 +21,14 @@ div. desc {
 	text-align: center;
 }
 
-vide {
-	width: 100%;
-	height: auto;
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
 }
 </style>
 </head>
 <body>
+<div class="flex-container">
 <div class="gallery">
 	<a target="blanks" href="IMG_0284.jpg">
 		<img src="IMG_0284.jpg" alt="CInque Terre"
@@ -94,6 +86,8 @@ width:"600" height="400">
 width:"600" height="400">
 	</a>
 	<div class="desc"> Water droplets on a leaf that I sketched.
+</div>
+</div>
 	<div class="gallery">
 	<a target="blanks" href="sketelton.jpg">
 		<img src="IMG_0293.jpg" alt="CInque Terre"
@@ -110,4 +104,5 @@ width:"600" height="400">
 	<div class="desc"> A realistic eye that I sketched!
 </div>
 </div>
-	
+</div>
+</body>
