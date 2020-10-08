@@ -1,15 +1,16 @@
-<html> 
+<html>
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device=width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-<div class="w3-container w3-teal">
-<h1>Art</h1>
-</div>
 
-<head>
-<style>
-div.gallery {
+<body>
+	<div class="w3-container w3-teal">
+		<h1>Art</h1>
+	</div>
+
+	<head>
+		<style>
+			/* div.gallery {
 	margin: 5px;
 	border: 1px solid #ccc;
 	float: left;
@@ -18,14 +19,16 @@ div.gallery {
 
 div.gallery:hover {
 	border: 1px solid #777;
-}
+} */
 
-div.gallery img {
-	width: 100%;
-	height: auto;
-}
+			div.gallery img {
+				/* width: 50%;
+	height: auto; */
+				width: 200px;
+				height: 200px;
+			}
 
-div. desc {
+			/* div. desc {
 	padding: 15px;
 	text-align: center;
 }
@@ -33,81 +36,83 @@ div. desc {
 vide {
 	width: 100%;
 	height: auto;
-}
-</style>
-</head>
-<body>
-<div class="gallery">
-	<a target="blanks" href="IMG_0284.jpg">
-		<img src="IMG_0284.jpg" alt="CInque Terre"
-width:"600" height="400">
-	</a>
+}  */
 
-<div class="desc"> My art wall in my room!.
-</div>
-</div>
-<div class="gallery">
-	<a target="blanks" href="IMG_0287.jpg">
-		<img src="IMG_0287.jpg" alt="Cinque Terre"
-width:"600" height="700">
-	</a>
-	<div class="desc"> One of my canvas paintings.
+			.flex-container {
+				display: flex;
+				flex-wrap: wrap;
 
-</div>
-</div>
-<div class="gallery">
-	<a target="blanks" href="IMG_0289.jpg">
-		<img src="IMG_0289.jpg" alt="CInque Terre"
-width:"600" height="400">
-	</a>
-<div class="desc"> A ceramic plate that I painted.
-</div>
-</div>
+			}
+		</style>
+	</head>
 
-<div class="gallery">
-<a target="blanks" href="IMG_0290.jpg">
-	<img src="IMG_0290.jpg" alt="CInque Terre"
-width:"600" height="400">
-</a>
-<div class="desc"> Ceramic figures that I painted!.
-</div>
-</div>
-<div class="gallery">
-	<a target="blanks" href="graffiti name.jpg">
-		<img src="graffiti name.jpg" alt="CInque Terre"
-width:"600" height="400">
-	</a>
-<div class="desc"> A graffiti drawing of my name!
-</div>
-</div>
-<div class="gallery">
-	<a target="blanks" href="IMG_0291.jpg">
-		<img src="IMG_0291.jpg" alt="CInque Terre"
-width:"600" height="400">
-	</a>
-	<div class="desc"> Another ceramic figure that I painted.
-</div>
-</div>
-<div class="gallery">
-	<a target="blanks" href="IMG_0292.jpg">
-		<img src="IMG_0292.jpg" alt="CInque Terre"
-width:"600" height="400">
-	</a>
-	<div class="desc"> Water droplets on a leaf that I sketched.
-	<div class="gallery">
-	<a target="blanks" href="sketelton.jpg">
-		<img src="IMG_0293.jpg" alt="CInque Terre"
-width:"600" height="400">
-	</a>
-	<div class="desc"> A realistic skeleton that I sketched.
-</div>
-</div>
-<div class="gallery">
-	<a target="blanks" href="IMG_0294.jpg">
-		<img src="IMG_0294.jpg" alt="CInque Terre"
-width:"600" height="400">
-	</a>
-	<div class="desc"> A realistic eye that I sketched!
-</div>
-</div>
-	
+	<body>
+		<div class="flex-container">
+			<div class="gallery">
+				<a target="blanks" href="IMG_0284.jpg">
+					<img src="IMG_0284.jpg" alt="CInque Terre" width:"600" height="400">
+				</a>
+
+				<div class="desc"> My art wall in my room!.
+				</div>
+			</div>
+			<div class="gallery">
+				<a target="blanks" href="IMG_0287.jpg">
+					<img src="IMG_0287.jpg" alt="Cinque Terre" width:"600" height="700">
+				</a>
+				<div class="desc"> One of my canvas paintings.
+
+				</div>
+			</div>
+			<div class="gallery">
+				<a target="blanks" href="IMG_0289.jpg">
+					<img src="IMG_0289.jpg" alt="CInque Terre" width:"600" height="400">
+				</a>
+				<div class="desc"> A ceramic plate that I painted.
+				</div>
+			</div>
+
+			<div class="gallery">
+				<a target="blanks" href="IMG_0290.jpg">
+					<img src="IMG_0290.jpg" alt="CInque Terre" width:"600" height="400">
+				</a>
+				<div class="desc"> Ceramic figures that I painted!.
+				</div>
+			</div>
+			<div class="gallery">
+				<a target="blanks" href="graffiti name.jpg">
+					<img src="graffiti name.jpg" alt="CInque Terre" width:"600" height="400">
+				</a>
+				<div class="desc"> A graffiti drawing of my name!
+				</div>
+			</div>
+			<div class="gallery">
+				<a target="blanks" href="IMG_0291.jpg">
+					<img src="IMG_0291.jpg" alt="CInque Terre" width:"600" height="400">
+				</a>
+				<div class="desc"> Another ceramic figure that I painted.
+				</div>
+			</div>
+			<div class="gallery">
+				<a target="blanks" href="IMG_0292.jpg">
+					<img src="IMG_0292.jpg" alt="CInque Terre" width:"600" height="400">
+				</a>
+				<div class="desc"> Water droplets on a leaf that I sketched.
+				</div>
+			</div>
+			<div class="gallery">
+				<a target="blanks" href="sketelton.jpg">
+					<img src="IMG_0293.jpg" alt="CInque Terre" width:"600" height="400">
+				</a>
+				<div class="desc"> A realistic skeleton that I sketched.
+				</div>
+			</div>
+			<div class="gallery">
+				<a target="blanks" href="IMG_0294.jpg">
+					<img src="IMG_0294.jpg" alt="CInque Terre" width:"600" height="400">
+				</a>
+				<div class="desc"> A realistic eye that I sketched!
+				</div>
+			</div>
+
+		</div>
