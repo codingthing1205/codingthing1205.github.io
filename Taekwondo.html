@@ -2,7 +2,7 @@
 <title>W3.CSS</title>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KW43IQKWuHw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <style>
-	body {
+	<body> {
 		background-image: url("tiger kim.jpg");
 		background-repeat: no-repeat;
 		background-position: right center;
@@ -17,37 +17,39 @@
 
 <head>
 <style>
-div.gallery {
-	margin: 5px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 180px;
+    .gallery {
+	text-align:center;
 }
 
-div.gallery:hover {
+	.gallery:hover {
 	border: 1px solid #777;
 }
 
-div.gallery img {
-	width: 100%;
-	height: auto;
+	.gallery img {
+	width: 200px;
+	height: 200px;
 }
 
-div. desc {
+	.desc {
 	padding: 15px;
-	text-align: center
+	
 }
 
-vide {
-	width: 100%;
-	height: auto;
+
+.flex-container {
+				display: flex;
+				flex-flow: row wrap;
+				flex-direction: row;
+				justify-content: space-around;
+				margin: 15px;
+
 }
 </style>
 </head>
 <body>
 
 
-
+<div class="flex-container">
 <div class="gallery">
 	<a target="blanks" href="IMG_8348.jpg">
 		<img src="IMG_8348.jpg" alt="CInque Terre"
