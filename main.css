@@ -3,8 +3,8 @@
 	display: flex;
 			flex-flow: column wrap;
 			justify-content: space-around;
-			margin: 15px;
 			width: 200px;
+			align-content:center;
 
 
 }
@@ -17,3 +17,6 @@
 	text-align: center;
 	/*go in the center NOW*/
 } 	
+body {
+	background-color: #ccb3ff;
+}
