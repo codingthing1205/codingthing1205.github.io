@@ -1,22 +1,29 @@
-.buttons-container {
+.navigation-bar {
 	background-color: #b3ecff;
-	display: flex;
-			flex-flow: column wrap;
-			justify-content: space-around;
-			width: 200px;
-			align-content:center;
-
+	width: 200px;
+	top:0;
+	z-index:1;
+	align-content:center;
+	position:absolute;
+	align-self:center;
+	height:100%;
 
 }
 
 .pineapple {
 	background-color: white;
-	border-radius: 30%;
-	margin: 100px;
-	width: 80px;
+	border-radius: 45%;
+	margin-top:60px;
+	margin-left:10px;
+	width: 150px;
 	text-align: center;
-	/*go in the center NOW*/
+	display:block;
+	font-size:30px;
 } 	
 body {
 	background-color: #ccb3ff;
+}
+
+.home-page {
+	margin-left:200px;
 }
