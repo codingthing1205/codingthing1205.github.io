@@ -38,7 +38,7 @@ body, html {
 
 .bg-image {
 
-  background-image: url("img/homepage.png");
+  background-image: url("img/homepage.PNG");
   filter: blur(4px);
   -webkit-filter: blur(4px);
   height: 100%;
