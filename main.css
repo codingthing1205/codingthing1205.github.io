@@ -12,7 +12,7 @@
 
 .pineapple {
 	background-color: white;
-	border-radius: 45%;
+	border-radius: 35%;
 	margin-top:60px;
 	margin-left:10px;
 	width: 150px;
@@ -21,9 +21,44 @@
 	font-size:30px;
 } 	
 body {
-	background-color: #ccb3ff;
+	background-color: #3366cc;
 }
 
 .home-page {
 	margin-left:200px;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  background-image: url("img/homepage.png");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 40%;
+  left: 17%;
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
